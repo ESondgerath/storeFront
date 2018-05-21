@@ -68,9 +68,9 @@
         </ol>
     </div>
 
-    <div id="sidebarButton" class="sidebarButton">
-        <span style="font-size:30px;cursor:pointer;color:rgb(200,200,200);" onclick="openNav()">&#9776; Sidebar</span>
-    </div>
+        <div id="sidebarButton" class="sidebarButton">
+                <span style="font-size:30px;cursor:pointer;color:rgb(200,200,200);" onclick="openNav()">&#9776; Sidebar</span>
+        </div>
 
 
     <section class="saleBox" style="width: 1400px;">
@@ -116,12 +116,12 @@
     <script>
         function openNav() {
             document.getElementById("sideNavBar").style.width = "250px";
-            document.getElementById("sidebarButton").hidden = "true";
+            // document.getElementById("sidebarButton").hidden = "true";
         }
         
         function closeNav() {
             document.getElementById("sideNavBar").style.width = "0";
-            document.getElementById("sidebarButton").hidden = "false";
+            // document.getElementById("sidebarButton").removeAttr('hidden')"
         }
     </script>
 
