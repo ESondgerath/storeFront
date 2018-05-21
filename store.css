@@ -4,8 +4,9 @@
 
 body {
 	font-size: 67.5%;
-	font-family: Tahoma, Geneva, sans-serif;
-	background: #39150C url(https://images.unsplash.com/photo-1463740839922-2d3b7e426a56?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a18285db9f6a93b9854a835fc1040c0a&auto=format&fit=crop&w=2019&q=80) no-repeat center -150px;
+    font-family: Tahoma, Geneva, sans-serif;
+    background: white;
+	/* background: #39150C url(https://images.unsplash.com/photo-1463740839922-2d3b7e426a56?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a18285db9f6a93b9854a835fc1040c0a&auto=format&fit=crop&w=2019&q=80) no-repeat center -150px; */
 	padding: 0;
 	margin: 0;
 	/* -webkit-background-size: 100% 100%;
@@ -61,10 +62,6 @@ hr {
 }
 .right {
 	float: right;
-}
-div.clear { 
-	clear:both;
-	font-size: 1%;
 }
 header {
 	padding: 2.5em 0 0.5em;
