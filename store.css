@@ -18,7 +18,7 @@ h1 {
 	padding: 0;
 }
 h2 {
-	color: #745b2f;
+	color: black;
 	font-size: 1.7em;
 	padding: 0px;
 	margin: 0.5em 0 0.35em 0;
@@ -32,13 +32,13 @@ p {
 	margin: 0px 0.5em 0.75em 0px;
 }
 ol {
-	font-size: 1.2em;
+	font-size: 3em;
 	margin: 0 0 0 0.75em;
 	padding: 0 0 0 0.75em;
 }
 ol li {
-	margin: 0;
-	padding: 0 0 0.2em;
+	margin: -0.35em 0 0 0;
+	padding: 0 0 0 0;
 }
 a, a:visited {
 	color: black;
@@ -172,7 +172,7 @@ section div.panel img.berryBox {
 	width: 100%;
 }
 
-section#sidebar {
+/* section#sidebar {
 	width: 238px;
 	float: left;
 	position: fixed;
@@ -182,7 +182,7 @@ section#sidebar {
     border: rgba(225,225,225,0.2) solid 5px;
     border-radius: 0.5em;
     background-color: rgba(225,225,225,0.1);
-}
+} */
 
 footer ul#menuFooter {
 	display: inline-block;
@@ -218,4 +218,53 @@ button:hover {
     color: white;
 	border: 1px solid black;
 	cursor: pointer;
+}
+
+.sidenav {
+	height: 500px;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	/* top: 0; */
+	left: 0;
+	background-color: rgba(50,50,50,0.5);
+	overflow-x: hidden;
+	transition: 0.5s;
+	padding-top: 60px;
+	overflow-y: hidden;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: black;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: -10px;
+    left: -30px;
+    font-size: 36px;
+	margin-right: 50px;
+	z-index: 2;
+}
+
+.sidebarButton {
+	float: left;
+	position: fixed;
+	/* height: 70px; */
+	width: 150px;
+	margin-left: 20px;
+	left: -80px;
+	top: 400px;
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	background-color: rgba(0,0,0,1)
 }
